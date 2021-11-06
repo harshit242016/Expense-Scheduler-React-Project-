@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Expenses",
+    "\\src\\components\\NewExpense",
+    "\\src\\components\\UI"
+  ],
+  "SelectedNode": "\\src\\components\\Expenses\\ExpenseItem.js",
+  "PreviewInSolutionExplorer": false
+}
