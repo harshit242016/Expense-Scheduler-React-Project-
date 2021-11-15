@@ -3,10 +3,8 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\Expenses",
-    "\\src\\components\\NewExpense",
-    "\\src\\components\\UI"
+    "\\src\\components\\Expenses"
   ],
-  "SelectedNode": "\\src\\components\\Expenses\\ExpenseItem.js",
+  "SelectedNode": "\\src\\components\\Expenses\\expenses.js",
   "PreviewInSolutionExplorer": false
 }

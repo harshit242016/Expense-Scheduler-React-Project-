@@ -23,11 +23,9 @@ const Expenses = (props) => {
                     selected={filteredYear}
                     onChangeFilter={filterChangeHandler}
                 />
-                {filteredExpenses.map((expense) => (
+                {filteredExpenses.length === 0 ? <h5>No expenses Found</h5> : filteredExpenses.map((expense) => (
                     <ExpenseItem
-                        key={expense.id}          //adding the key helps react understand that the new component must be added in the beginning and not at
-                                            //the end because the new item is added at the end and then all the items are copied and pasted one by one,
-                                            // to make the recently added item appear in the beginning.
+                        key={expense.id}
                         title={expense.title}
                         amount={expense.amount}
                         date={expense.date}
